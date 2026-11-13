@@ -1,0 +1,6 @@
+node_modules/
+.env
+.DS_Store
+videos/*/out/*
+!videos/*/out/*.mp4
+videos/*/takes/
