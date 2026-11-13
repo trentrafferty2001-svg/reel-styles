@@ -1,0 +1,555 @@
+[
+  {
+    "text": "One",
+    "startMs": 215,
+    "endMs": 400,
+    "timestampMs": 308,
+    "confidence": null
+  },
+  {
+    "text": " thousand",
+    "startMs": 400,
+    "endMs": 720,
+    "timestampMs": 560,
+    "confidence": null
+  },
+  {
+    "text": " dollars.",
+    "startMs": 720,
+    "endMs": 1307,
+    "timestampMs": 1014,
+    "confidence": null
+  },
+  {
+    "text": " Leave",
+    "startMs": 1567,
+    "endMs": 1805,
+    "timestampMs": 1686,
+    "confidence": null
+  },
+  {
+    "text": " it",
+    "startMs": 1805,
+    "endMs": 1937,
+    "timestampMs": 1871,
+    "confidence": null
+  },
+  {
+    "text": " alone",
+    "startMs": 1937,
+    "endMs": 2254,
+    "timestampMs": 2096,
+    "confidence": null
+  },
+  {
+    "text": " for",
+    "startMs": 2254,
+    "endMs": 2413,
+    "timestampMs": 2334,
+    "confidence": null
+  },
+  {
+    "text": " forty",
+    "startMs": 2413,
+    "endMs": 2889,
+    "timestampMs": 2651,
+    "confidence": null
+  },
+  {
+    "text": " years,",
+    "startMs": 2889,
+    "endMs": 3206,
+    "timestampMs": 3048,
+    "confidence": null
+  },
+  {
+    "text": " and",
+    "startMs": 3206,
+    "endMs": 3365,
+    "timestampMs": 3286,
+    "confidence": null
+  },
+  {
+    "text": " it",
+    "startMs": 3365,
+    "endMs": 3444,
+    "timestampMs": 3405,
+    "confidence": null
+  },
+  {
+    "text": " turns",
+    "startMs": 3444,
+    "endMs": 3683,
+    "timestampMs": 3564,
+    "confidence": null
+  },
+  {
+    "text": " into",
+    "startMs": 3683,
+    "endMs": 3921,
+    "timestampMs": 3802,
+    "confidence": null
+  },
+  {
+    "text": " twenty-one",
+    "startMs": 3921,
+    "endMs": 4238,
+    "timestampMs": 4080,
+    "confidence": null
+  },
+  {
+    "text": " thousand.",
+    "startMs": 4238,
+    "endMs": 4556,
+    "timestampMs": 4397,
+    "confidence": null
+  },
+  {
+    "text": " How?",
+    "startMs": 4556,
+    "endMs": 5032,
+    "timestampMs": 4794,
+    "confidence": null
+  },
+  {
+    "text": " Say",
+    "startMs": 5298,
+    "endMs": 5647,
+    "timestampMs": 5473,
+    "confidence": null
+  },
+  {
+    "text": " it",
+    "startMs": 6042,
+    "endMs": 6179,
+    "timestampMs": 6111,
+    "confidence": null
+  },
+  {
+    "text": " earns",
+    "startMs": 6179,
+    "endMs": 6315,
+    "timestampMs": 6247,
+    "confidence": null
+  },
+  {
+    "text": " eight",
+    "startMs": 6315,
+    "endMs": 6520,
+    "timestampMs": 6418,
+    "confidence": null
+  },
+  {
+    "text": " percent",
+    "startMs": 6520,
+    "endMs": 6656,
+    "timestampMs": 6588,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 6656,
+    "endMs": 6929,
+    "timestampMs": 6793,
+    "confidence": null
+  },
+  {
+    "text": " year.",
+    "startMs": 6929,
+    "endMs": 7155,
+    "timestampMs": 7042,
+    "confidence": null
+  },
+  {
+    "text": " Year",
+    "startMs": 7155,
+    "endMs": 7496,
+    "timestampMs": 7326,
+    "confidence": null
+  },
+  {
+    "text": " one,",
+    "startMs": 7901,
+    "endMs": 8080,
+    "timestampMs": 7991,
+    "confidence": null
+  },
+  {
+    "text": " you",
+    "startMs": 8080,
+    "endMs": 8400,
+    "timestampMs": 8240,
+    "confidence": null
+  },
+  {
+    "text": " get",
+    "startMs": 8480,
+    "endMs": 8640,
+    "timestampMs": 8560,
+    "confidence": null
+  },
+  {
+    "text": " eighty",
+    "startMs": 8640,
+    "endMs": 8880,
+    "timestampMs": 8760,
+    "confidence": null
+  },
+  {
+    "text": " dollars.",
+    "startMs": 8880,
+    "endMs": 9120,
+    "timestampMs": 9000,
+    "confidence": null
+  },
+  {
+    "text": " Here's",
+    "startMs": 9120,
+    "endMs": 9699,
+    "timestampMs": 9410,
+    "confidence": null
+  },
+  {
+    "text": " the",
+    "startMs": 10086,
+    "endMs": 10320,
+    "timestampMs": 10203,
+    "confidence": null
+  },
+  {
+    "text": " trick.",
+    "startMs": 10320,
+    "endMs": 10400,
+    "timestampMs": 10360,
+    "confidence": null
+  },
+  {
+    "text": " Next",
+    "startMs": 10400,
+    "endMs": 10806,
+    "timestampMs": 10603,
+    "confidence": null
+  },
+  {
+    "text": " year,",
+    "startMs": 11193,
+    "endMs": 11520,
+    "timestampMs": 11357,
+    "confidence": null
+  },
+  {
+    "text": " that",
+    "startMs": 11520,
+    "endMs": 11840,
+    "timestampMs": 11680,
+    "confidence": null
+  },
+  {
+    "text": " eighty",
+    "startMs": 11920,
+    "endMs": 12160,
+    "timestampMs": 12040,
+    "confidence": null
+  },
+  {
+    "text": " earns",
+    "startMs": 12160,
+    "endMs": 12560,
+    "timestampMs": 12360,
+    "confidence": null
+  },
+  {
+    "text": " interest",
+    "startMs": 12560,
+    "endMs": 12800,
+    "timestampMs": 12680,
+    "confidence": null
+  },
+  {
+    "text": " too.",
+    "startMs": 12800,
+    "endMs": 13200,
+    "timestampMs": 13000,
+    "confidence": null
+  },
+  {
+    "text": " Your",
+    "startMs": 13200,
+    "endMs": 13618,
+    "timestampMs": 13409,
+    "confidence": null
+  },
+  {
+    "text": " money",
+    "startMs": 13966,
+    "endMs": 14160,
+    "timestampMs": 14063,
+    "confidence": null
+  },
+  {
+    "text": " makes",
+    "startMs": 14160,
+    "endMs": 14400,
+    "timestampMs": 14280,
+    "confidence": null
+  },
+  {
+    "text": " baby",
+    "startMs": 14400,
+    "endMs": 14640,
+    "timestampMs": 14520,
+    "confidence": null
+  },
+  {
+    "text": " money.",
+    "startMs": 14640,
+    "endMs": 15120,
+    "timestampMs": 14880,
+    "confidence": null
+  },
+  {
+    "text": " And",
+    "startMs": 15120,
+    "endMs": 15507,
+    "timestampMs": 15314,
+    "confidence": null
+  },
+  {
+    "text": " the",
+    "startMs": 15725,
+    "endMs": 15814,
+    "timestampMs": 15770,
+    "confidence": null
+  },
+  {
+    "text": " babies",
+    "startMs": 15814,
+    "endMs": 15903,
+    "timestampMs": 15859,
+    "confidence": null
+  },
+  {
+    "text": " make",
+    "startMs": 15903,
+    "endMs": 16613,
+    "timestampMs": 16258,
+    "confidence": null
+  },
+  {
+    "text": " babies.",
+    "startMs": 16613,
+    "endMs": 16879,
+    "timestampMs": 16746,
+    "confidence": null
+  },
+  {
+    "text": " A",
+    "startMs": 16879,
+    "endMs": 17500,
+    "timestampMs": 17190,
+    "confidence": null
+  },
+  {
+    "text": " bigger",
+    "startMs": 17900,
+    "endMs": 17979,
+    "timestampMs": 17940,
+    "confidence": null
+  },
+  {
+    "text": " pile",
+    "startMs": 17979,
+    "endMs": 18293,
+    "timestampMs": 18136,
+    "confidence": null
+  },
+  {
+    "text": " grows",
+    "startMs": 18293,
+    "endMs": 18685,
+    "timestampMs": 18489,
+    "confidence": null
+  },
+  {
+    "text": " faster",
+    "startMs": 18685,
+    "endMs": 18921,
+    "timestampMs": 18803,
+    "confidence": null
+  },
+  {
+    "text": " every",
+    "startMs": 18921,
+    "endMs": 19392,
+    "timestampMs": 19157,
+    "confidence": null
+  },
+  {
+    "text": " year.",
+    "startMs": 19392,
+    "endMs": 19784,
+    "timestampMs": 19588,
+    "confidence": null
+  },
+  {
+    "text": " Without",
+    "startMs": 19784,
+    "endMs": 20176,
+    "timestampMs": 19980,
+    "confidence": null
+  },
+  {
+    "text": " compounding,",
+    "startMs": 20565,
+    "endMs": 20827,
+    "timestampMs": 20696,
+    "confidence": null
+  },
+  {
+    "text": " you'd",
+    "startMs": 20827,
+    "endMs": 21547,
+    "timestampMs": 21187,
+    "confidence": null
+  },
+  {
+    "text": " end",
+    "startMs": 21627,
+    "endMs": 21787,
+    "timestampMs": 21707,
+    "confidence": null
+  },
+  {
+    "text": " with",
+    "startMs": 21787,
+    "endMs": 22027,
+    "timestampMs": 21907,
+    "confidence": null
+  },
+  {
+    "text": " about",
+    "startMs": 22027,
+    "endMs": 22107,
+    "timestampMs": 22067,
+    "confidence": null
+  },
+  {
+    "text": " four",
+    "startMs": 22107,
+    "endMs": 22507,
+    "timestampMs": 22307,
+    "confidence": null
+  },
+  {
+    "text": " thousand.",
+    "startMs": 22507,
+    "endMs": 22667,
+    "timestampMs": 22587,
+    "confidence": null
+  },
+  {
+    "text": " With",
+    "startMs": 22667,
+    "endMs": 23267,
+    "timestampMs": 22967,
+    "confidence": null
+  },
+  {
+    "text": " it,",
+    "startMs": 23632,
+    "endMs": 23867,
+    "timestampMs": 23750,
+    "confidence": null
+  },
+  {
+    "text": " over",
+    "startMs": 23867,
+    "endMs": 24107,
+    "timestampMs": 23987,
+    "confidence": null
+  },
+  {
+    "text": " twenty-one",
+    "startMs": 24107,
+    "endMs": 24347,
+    "timestampMs": 24227,
+    "confidence": null
+  },
+  {
+    "text": " thousand.",
+    "startMs": 24347,
+    "endMs": 24747,
+    "timestampMs": 24547,
+    "confidence": null
+  },
+  {
+    "text": " The",
+    "startMs": 24747,
+    "endMs": 25067,
+    "timestampMs": 24907,
+    "confidence": null
+  },
+  {
+    "text": " secret",
+    "startMs": 25067,
+    "endMs": 25601,
+    "timestampMs": 25334,
+    "confidence": null
+  },
+  {
+    "text": " ingredient",
+    "startMs": 26067,
+    "endMs": 26227,
+    "timestampMs": 26147,
+    "confidence": null
+  },
+  {
+    "text": " is",
+    "startMs": 26227,
+    "endMs": 26627,
+    "timestampMs": 26427,
+    "confidence": null
+  },
+  {
+    "text": " time.",
+    "startMs": 26627,
+    "endMs": 27108,
+    "timestampMs": 26868,
+    "confidence": null
+  },
+  {
+    "text": " Start",
+    "startMs": 27108,
+    "endMs": 27268,
+    "timestampMs": 27188,
+    "confidence": null
+  },
+  {
+    "text": " early.",
+    "startMs": 27268,
+    "endMs": 27748,
+    "timestampMs": 27508,
+    "confidence": null
+  },
+  {
+    "text": " Follow",
+    "startMs": 28045,
+    "endMs": 28347,
+    "timestampMs": 28196,
+    "confidence": null
+  },
+  {
+    "text": " for",
+    "startMs": 28347,
+    "endMs": 28779,
+    "timestampMs": 28563,
+    "confidence": null
+  },
+  {
+    "text": " more.",
+    "startMs": 29047,
+    "endMs": 29798,
+    "timestampMs": 29423,
+    "confidence": null
+  }
+]
