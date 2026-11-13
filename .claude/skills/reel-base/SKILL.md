@@ -143,4 +143,6 @@ and add `"allowJs": true` to `tsconfig.json`.
 **Cost and speed:** 3D renders in software here, so keep it lean: shadow maps at 2048, `ao: false` unless the
 scene is small, no canvas `filter: blur()` in textures (it can time out a frame; draw small and scale up). Render
 with `npx remotion render Reel out/<slug>.mp4 --concurrency=4 --timeout=120000`. Check stills of every shot first:
-each still takes ~6 s.
+each still takes ~6 s. A 36 s reel took ~20 min to render. Grain makes the file large (~120 MB), over GitHub's
+100 MB limit, so re-encode before committing:
+`ffmpeg -i full.mp4 -c:v libx264 -preset slow -crf 21 -pix_fmt yuv420p -c:a copy -movflags +faststart out/<slug>.mp4` (~45 MB).
