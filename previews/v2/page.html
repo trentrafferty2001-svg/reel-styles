@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="/src/base.css">
+<style>
+#gl,#ui{position:absolute;inset:0}
+#ui{pointer-events:none}
+@font-face{font-family:Fredoka;src:url(/src/fonts/fredoka.woff2);font-weight:300 700}
+.glass{background:linear-gradient(160deg,rgba(255,255,255,.22),rgba(255,255,255,.06));border:1.5px solid rgba(255,255,255,.35);box-shadow:0 24px 60px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.4);backdrop-filter:blur(18px)}
+</style>
+<script type="importmap">{"imports":{"three":"/v2/node_modules/three/build/three.module.js","three/addons/":"/v2/node_modules/three/examples/jsm/"}}</script>
+</head><body><div id="gl"></div><div id="ui"></div>
+<script type="module">
+const s = new URLSearchParams(location.search).get('s');
+import('/v2/scenes/' + s + '.js').catch(e => { document.title = 'ERR ' + e.message; console.error(e); });
+</script></body></html>
