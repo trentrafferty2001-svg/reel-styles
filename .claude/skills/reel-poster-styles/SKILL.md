@@ -11,6 +11,8 @@ on the left, each poster flipping in on the beat, style name in big type, a save
 Build with the `reel-base` pipeline (load it first). Every poster is drawn in code (SVG/CSS in Remotion), no image
 generators.
 
+**3D look:** render it in 3D (reel-base section 7). The reference frame is `previews/poster-styles.png`; start the world from `previews/v2/scenes/poster-styles.js`. The colours and layout below still apply; flat-drawing details (outline widths, SVG shapes) translate to 3D materials and lighting.
+
 ## Look
 - **Frame:** off-white page `#f4f1ea`, ink `#111`. Left column (x 60-330): the numbered list 01-20 in Inter 600,
   28 px; the current number turns ink-black and bold with a short bar beside it, past ones grey `#9a958c`, future

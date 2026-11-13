@@ -10,6 +10,8 @@ with a runtime bar, a calm narrator voice, slow push-ins, warm colour grade, wor
 
 Build with the `reel-base` pipeline (load it first). This file is the look and the structure.
 
+**3D look:** render it in 3D (reel-base section 7). The reference frame is `previews/documentary.png`; start the world from `videos/apollo-11-the-launch/src/world.js` (a full working documentary: shots posed by `pose(shot, t)`, smoke, liftoff, climb, night sky and Moon) or `previews/v2/scenes/documentary.js`. The colours and layout below still apply; flat-drawing details (outline widths, SVG shapes) translate to 3D materials and lighting.
+
 ## Look
 - **Grade:** warm. Blacks lifted to `#14100c`, highlights `#f3e3c3`, accent amber `#e0a24a`. Over every scene add a
   grade layer: a radial vignette (transparent centre → `rgba(0,0,0,0.65)` at the edges), a warm overlay

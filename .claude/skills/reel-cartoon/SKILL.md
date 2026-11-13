@@ -10,6 +10,8 @@ colours, a big number or meter as the hook, the mascot reacting to each step, pu
 
 Build with the `reel-base` pipeline (load it first).
 
+**3D look:** render it in 3D (reel-base section 7). The reference frame is `previews/cartoon.png`; start the world from `previews/v2/scenes/cartoon.js`. The colours and layout below still apply; flat-drawing details (outline widths, SVG shapes) translate to 3D materials and lighting.
+
 ## Look
 - **Palette:** bold and flat, no gradients except a soft one on the sky. Background sunny yellow `#ffd23f` or sky
   `#5ec8ff` (pick one per video), with shapes in tomato `#ff5a4e`, grass `#3ec46d`, grape `#7b5cff`, white, and ink

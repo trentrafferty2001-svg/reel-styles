@@ -11,6 +11,8 @@ big green type.
 
 Build with the `reel-base` pipeline (load it first).
 
+**3D look:** render it in 3D (reel-base section 7). The reference frame is `previews/terminal.png`; start the world from `previews/v2/scenes/terminal.js`. The colours and layout below still apply; flat-drawing details (outline widths, SVG shapes) translate to 3D materials and lighting.
+
 ## Look
 - **Background:** near-black `#0b0d10` with a faint dot grid (`#1a1f26`) and a soft green glow behind the window.
 - **Terminal window** (x 60-1020, y 300-1000): rounded 24 px, `#12161c`, title bar with three dots (red/amber/green)

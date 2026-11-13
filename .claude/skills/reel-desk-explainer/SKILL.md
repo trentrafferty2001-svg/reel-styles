@@ -10,6 +10,8 @@ one card per item with a number badge and a live mini demo, cream background, te
 
 Build with the `reel-base` pipeline (load it first).
 
+**3D look:** render it in 3D (reel-base section 7). The reference frame is `previews/desk-explainer.png`; start the world from `previews/v2/scenes/desk-explainer.js`. The colours and layout below still apply; flat-drawing details (outline widths, SVG shapes) translate to 3D materials and lighting.
+
 ## Look
 - **Palette:** cream background `#f3ead8`, ink `#2b2420`, terracotta `#c8613f` (accent + captions), sage `#8aa58a`
   for "good" ticks, card white `#fffaf1`. Fonts: a rounded sans (Nunito 800) for titles, Inter for UI text.

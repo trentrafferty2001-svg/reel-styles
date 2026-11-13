@@ -11,6 +11,8 @@ comment-keyword pill.
 
 Build with the `reel-base` pipeline (load it first). Use its several-voices path if the helper speaks.
 
+**3D look:** render it in 3D (reel-base section 7). The reference frame is `previews/night-desk.png`; start the world from `previews/v2/scenes/night-desk.js`. The colours and layout below still apply; flat-drawing details (outline widths, SVG shapes) translate to 3D materials and lighting.
+
 ## Look
 - **Scene:** a cosy dark room. Wall `#161a2e`, window upper left showing a deep blue night city (`#0d1b3a` with a
   few lit windows in `#ffd27a`), **rain**: 80-120 thin diagonal streaks falling at varied speeds (`random(seed)` per

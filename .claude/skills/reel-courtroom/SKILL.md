@@ -10,6 +10,8 @@ and one against, 12 jurors voting guilty or not guilty in secret, gavel sound, t
 
 Build with the `reel-base` pipeline (load it first), using its **several voices** path.
 
+**3D look:** render it in 3D (reel-base section 7). The reference frame is `previews/courtroom.png`; start the world from `previews/v2/scenes/courtroom.js`. The colours and layout below still apply; flat-drawing details (outline widths, SVG shapes) translate to 3D materials and lighting.
+
 ## Look
 - **Courtroom:** warm wood panelling (`#5a3a22`, `#7a5232` stripes), cream wall above (`#efe4cf`), a raised bench
   centre top with the **judge** (black robe, white collar, grey hair shape, round glasses) and a brass nameplate
