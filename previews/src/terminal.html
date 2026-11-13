@@ -1,0 +1,32 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><style>
+body{background:#0b0d10;background-image:radial-gradient(#1a1f26 2px,transparent 2px);background-size:36px 36px}
+.glow{position:absolute;left:140px;top:420px;width:800px;height:600px;background:#3ddc84;filter:blur(160px);opacity:.15}
+.win{position:absolute;left:60px;right:60px;top:300px;height:700px;background:#12161c;border-radius:24px;border:2px solid #232a33;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.tb{height:70px;background:#181d24;display:flex;align-items:center;padding:0 28px;gap:14px;font:500 26px Mono;color:#7d8590}
+.tb i{width:22px;height:22px;border-radius:50%;display:block}
+.code{padding:30px 36px;font:500 33px/1.55 Mono;color:#d6e2ee;white-space:pre}
+.g{color:#3ddc84}.c{color:#5cc8ff}.s{color:#ffcc66}.m{color:#7d8590}
+.cur{display:inline-block;width:20px;height:40px;background:#d6e2ee;vertical-align:middle}
+.total{position:absolute;right:100px;top:388px;font:800 34px Mono;color:#3ddc84;background:#0f2a1b;padding:8px 18px;border-radius:12px}
+.card{position:absolute;left:60px;right:60px;top:1040px;height:250px;background:#151a21;border:2px solid #232a33;border-radius:24px;padding:34px 40px}
+.card h3{font:800 44px Inter;color:#fff}.card .sub{font:500 28px Inter;color:#7d8590;margin-top:6px}
+.old{position:absolute;left:40px;bottom:36px;font:800 64px Mono;color:#7d8590}.old:after{content:"";position:absolute;left:-6px;right:-6px;top:50%;height:7px;background:#ff4d4d;transform:rotate(-6deg)}
+.new{position:absolute;left:400px;bottom:30px;font:800 84px Mono;color:#3ddc84}
+.pill{position:absolute;right:40px;top:40px;background:#3ddc84;color:#0b0d10;font:900 34px Inter;padding:10px 24px;border-radius:30px}
+.cap{font:700 54px Mono;color:#fff;bottom:auto;top:1440px}
+</style></head><body>
+<div class="glow"></div>
+<div class="win"><div class="tb"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><span style="margin-left:20px">~/save-money — zsh</span></div>
+<div class="code"><span class="g">$</span> swap <span class="c">--from</span> <span class="s">"Photoshop"</span>
+<span class="m">  searching free alternatives…</span>
+<span class="g">  ✓ Photopea</span> <span class="m">· runs in browser</span>
+<span class="g">  ✓ same PSD files, no install</span>
+
+<span class="g">$</span> swap <span class="c">--from</span> <span class="s">"Grammarly Premium"</span>
+<span class="m">  searching free alternatives…</span>
+<span class="g">  ✓ LanguageTool</span> <span class="m">· free tier</span>
+<span class="g">$</span> <span class="cur"></span></div></div>
+<div class="total">Saved: $407/yr</div>
+<div class="card"><div class="pill">FREE</div><h3>Photoshop → Photopea</h3><div class="sub">per year</div><div class="old">$263</div><div class="new">$0</div></div>
+<div class="cap">Same files, <span style="color:#3ddc84">zero</span> cost.</div>
+</body></html>

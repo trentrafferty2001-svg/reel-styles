@@ -1,0 +1,33 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><style>
+body{background:#14100c}
+.sky{position:absolute;inset:0;background:linear-gradient(#1a2440 0%,#4a3550 38%,#c9784a 62%,#f3c98a 72%,#2a1d14 73%)}
+.grade{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 35%,rgba(0,0,0,.72) 100%)}
+.warm{position:absolute;inset:0;background:#ff9a3c;opacity:.10;mix-blend-mode:soft-light}
+.bar{position:absolute;left:0;top:0;height:6px;width:46%;background:#e0a24a}
+.bart{position:absolute;left:0;right:0;top:0;height:6px;background:rgba(243,227,195,.18)}
+.chap{position:absolute;left:80px;top:300px;font-family:Playfair;color:#f3e3c3;font-size:40px;letter-spacing:8px;font-style:italic}
+.chap small{display:block;font-family:Inter;font-style:normal;font-size:24px;letter-spacing:10px;color:#e0a24a;margin-bottom:12px}
+.cap{font-weight:600;color:#f3e3c3;text-shadow:0 4px 18px rgba(0,0,0,.8);font-size:60px;padding:0 90px;line-height:1.25}
+.dim{opacity:.3}
+.lbox{position:absolute;left:0;right:0;height:90px;background:#000}
+</style></head><body>
+<div class="sky"></div>
+<svg class="abs" style="left:0;top:0" width="1080" height="1920">
+ <circle cx="760" cy="560" r="120" fill="#f8e7c4" opacity=".95"/><circle cx="760" cy="560" r="220" fill="#f8e7c4" opacity=".08"/>
+ <g fill="#fff" opacity=".7"><circle cx="120" cy="420" r="3"/><circle cx="300" cy="300" r="2"/><circle cx="520" cy="380" r="2.5"/><circle cx="960" cy="330" r="2"/><circle cx="200" cy="640" r="2"/><circle cx="900" cy="760" r="2"/></g>
+ <path d="M540 1380 L540 820" stroke="#f3c98a" stroke-width="18" opacity=".25"/>
+ <g transform="translate(540 900)"><path d="M-34 300 L-34 40 Q0 -60 34 40 L34 300 Z" fill="#1a120c"/><path d="M-34 300 L-80 360 L-34 330 Z M34 300 L80 360 L34 330 Z" fill="#1a120c"/>
+  <path d="M-40 360 Q0 520 40 360 Z" fill="#ffb35c"/><path d="M-22 360 Q0 460 22 360 Z" fill="#fff1c8"/></g>
+ <path d="M-20 1420 Q200 1300 420 1380 T 820 1340 T 1100 1380 L1100 1920 L-20 1920Z" fill="#2a1d14"/>
+ <path d="M-20 1520 Q300 1440 600 1500 T 1100 1480 L1100 1920 L-20 1920Z" fill="#1a120c"/>
+ <path d="M380 1520 L380 1260 L420 1260 L430 1520 M640 1500 L650 1300 L690 1300 L690 1500" stroke="#120c08" stroke-width="14" fill="none"/>
+ <g fill="#ffe6b0">
+  <circle cx="300" cy="1100" r="3" opacity=".5"/><circle cx="700" cy="1000" r="2" opacity=".5"/><circle cx="820" cy="1180" r="3" opacity=".4"/><circle cx="220" cy="900" r="2" opacity=".4"/>
+ </g>
+</svg>
+<div class="warm"></div><div class="grade"></div>
+<div class="bart"></div><div class="bar"></div>
+<div class="chap"><small>CHAPTER II</small>The Launch</div>
+<div class="cap">Five hundred thousand people <span class="dim">watched it leave the ground.</span></div>
+<svg class="abs" style="inset:0" width="1080" height="1920" opacity=".07"><filter id="n"><feTurbulence baseFrequency=".9" seed="4"/></filter><rect width="1080" height="1920" filter="url(#n)"/></svg>
+</body></html>

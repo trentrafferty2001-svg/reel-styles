@@ -1,0 +1,37 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><style>
+body{background:linear-gradient(#1b1035,#0d1430)}
+.panel{position:absolute;width:150px;height:220px;border-radius:18px;background:rgba(255,255,255,.04);border:2px solid rgba(255,255,255,.05)}
+.onair{position:absolute;left:340px;top:280px;width:400px;height:110px;border-radius:24px;border:5px solid #ff3b3b;color:#ff3b3b;font:900 70px Inter;letter-spacing:8px;display:flex;align-items:center;justify-content:center;box-shadow:0 0 50px rgba(255,59,59,.6),inset 0 0 30px rgba(255,59,59,.3);text-shadow:0 0 20px #ff3b3b;background:#1a0a14}
+.meter{position:absolute;left:290px;top:430px;width:500px;height:26px;border-radius:13px;background:linear-gradient(90deg,#ff8a3d 0 62%,#3dd6ff 62%);border:4px solid #0a0a18}
+.knob{position:absolute;left:592px;top:420px;width:46px;height:46px;border-radius:50%;background:#fff;border:5px solid #0a0a18}
+.q{position:absolute;left:0;right:0;top:500px;text-align:center;color:#fff;font:800 48px Inter}
+.bub{position:absolute;padding:24px 34px;border-radius:34px;font:800 46px Inter;color:#0d1430;max-width:560px;line-height:1.15}
+.bub.a{left:60px;top:640px;background:#ff8a3d}.bub.b{right:60px;top:810px;background:#3dd6ff;opacity:.45}
+.bub.a:after{content:"";position:absolute;left:90px;bottom:-30px;border:18px solid transparent;border-top:24px solid #ff8a3d}
+.desk{position:absolute;left:0;right:0;top:1300px;height:620px;background:#2a1e18;border-top:14px solid #5a4030}
+.plate{position:absolute;top:1340px;padding:14px 30px;border-radius:12px;background:#111;color:#fff;font:800 34px Inter;letter-spacing:3px}
+.cap{color:#fff;font-size:66px;bottom:300px}
+</style></head><body>
+<div class="panel" style="left:60px;top:300px"></div><div class="panel" style="left:870px;top:300px"></div><div class="panel" style="left:60px;top:560px"></div><div class="panel" style="left:870px;top:560px"></div>
+<div class="onair">ON AIR</div><div class="meter"></div><div class="knob"></div>
+<div class="q">Is coffee actually good for you?</div>
+<div class="bub a">Four cups a day lowers heart risk.</div>
+<div class="bub b">Not if it's a sugar bomb.</div>
+<svg class="abs" style="left:0;top:880px" width="1080" height="460">
+ <defs><radialGradient id="rim"><stop offset=".6" stop-color="#ff8a3d" stop-opacity="0"/><stop offset="1" stop-color="#ff8a3d" stop-opacity=".5"/></radialGradient></defs>
+ <!-- host A -->
+ <g transform="translate(270 0)"><circle cx="0" cy="170" r="150" fill="url(#rim)"/>
+  <path d="M-150 460 Q-150 300 0 300 Q150 300 150 460Z" fill="#ff8a3d"/><circle cx="0" cy="170" r="110" fill="#f2c9a0"/>
+  <path d="M-115 160 Q-110 40 0 50 Q120 40 115 170 Q90 90 0 95 Q-80 90 -115 160Z" fill="#3a2418"/>
+  <circle cx="-38" cy="175" r="11" fill="#1a1a1a"/><circle cx="38" cy="175" r="11" fill="#1a1a1a"/><ellipse cx="0" cy="235" rx="30" ry="20" fill="#7a2a2a"/>
+  <path d="M190 330 L120 260" stroke="#333" stroke-width="12"/><rect x="88" y="200" width="50" height="90" rx="25" fill="#222" transform="rotate(-40 113 245)"/></g>
+ <!-- host B -->
+ <g transform="translate(810 0)" opacity=".75"><path d="M-150 460 Q-150 300 0 300 Q150 300 150 460Z" fill="#3dd6ff"/><circle cx="0" cy="170" r="110" fill="#c98e62"/>
+  <path d="M-110 140 Q-100 50 0 55 Q100 50 110 140 L110 110 Q0 20 -110 110Z" fill="#111"/>
+  <path d="M-55 175 L-20 175 M20 175 L55 175" stroke="#1a1a1a" stroke-width="10" stroke-linecap="round"/><path d="M-25 235 L25 235" stroke="#5a2a1a" stroke-width="9" stroke-linecap="round"/>
+  <path d="M-190 330 L-120 260" stroke="#333" stroke-width="12"/><rect x="-138" y="200" width="50" height="90" rx="25" fill="#222" transform="rotate(40 -113 245)"/></g>
+</svg>
+<div class="desk"></div>
+<div class="plate" style="left:150px">MAYA · FOR</div><div class="plate" style="left:640px">DEV · AGAINST</div>
+<div class="cap"><span style="color:#ff8a3d">heart</span> risk.</div>
+</body></html>
