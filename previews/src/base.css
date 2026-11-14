@@ -1,0 +1,10 @@
+@font-face{font-family:Playfair;src:url(fonts/playfair.woff2);font-weight:400 900}
+@font-face{font-family:Slab;src:url(fonts/slab.woff2);font-weight:400 900}
+@font-face{font-family:Mono;src:url(fonts/mono.woff2);font-weight:400 800}
+@font-face{font-family:Nunito;src:url(fonts/nunito.woff2);font-weight:400 900}
+@font-face{font-family:Inter;src:url(fonts/inter.woff2);font-weight:100 900}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{position:relative;font-family:Inter}
+.abs{position:absolute}
+.cap{position:absolute;left:0;right:0;bottom:330px;text-align:center;font-weight:800;font-size:64px}

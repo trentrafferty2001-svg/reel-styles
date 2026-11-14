@@ -113,3 +113,43 @@ bash <base>/scripts/check-video.sh spec out/<slug>.mp4
 Look at the contact sheet before the final render: every scene shows its line, no text clipped or under the
 captions, the style's palette and fonts throughout, a clean end card. Then send the MP4 with SendUserFile and list
 one line per scene.
+
+## 7. The 3D look (default for every style)
+Every style is rendered as a lit 3D scene, not flat shapes: vinyl-toy characters, soft shadows, image-based
+lighting, bloom on anything that glows, film grain and a vignette. Text, captions, cards and counters stay as
+crisp HTML on top. Reference frames for each style are in `previews/<style>.png`, built from
+`previews/v2/scenes/<style>.js`: start a new video's world from that style's scene file.
+
+**Setup (in `videos/<slug>/`):**
+```bash
+npm i three@0.170.0 @types/three@0.170.0
+cp <base>/three/lib3d.js <base>/three/Stage.tsx src/
+echo 'Config.setChromiumOpenGlRenderer("swangle");' >> remotion.config.ts   # software WebGL for headless renders
+```
+and add `"allowJs": true` to `tsconfig.json`.
+
+**How it fits together:**
+- `src/world.js` exports `buildWorld(container)`: it calls `setup({ container, ... })`, builds the scene once
+  with the `lib3d.js` helpers (`clay`, `fabric`, `glossy`, `metal`, `glow`, `wood`, `box`, `sphere`, `character`, ...),
+  creates the post chain with `makeComposer(ctx, { bloom, vignette, grain, tint })`, and returns
+  `{ pose(shot, t, frame), canvas }`. `pose` places the camera and every moving thing for that moment and calls
+  `composer.render()`.
+- **`pose` must be a pure function of (shot, t)**: no state carried between frames. Remotion renders frames out
+  of order and in several tabs at once.
+- `src/Stage.tsx` builds the world once per tab and calls `pose` inside `delayRender` for each frame. Put
+  `<Stage shot="liftoff" t={frame / fps} />` inside each shot's `<Sequence>`, with HTML overlays after it.
+- Cuts: a 6-frame dip through black between shots is cheap and reads as cinematic.
+
+**Cost and speed:** 3D renders in software here, so keep it lean: shadow maps at 2048, `ao: false` unless the
+scene is small, no canvas `filter: blur()` in textures (it can time out a frame; draw small and scale up). Render
+with `npx remotion render Reel out/<slug>.mp4 --concurrency=4 --timeout=120000`. Check stills of every shot first:
+each still takes ~6 s. A 36 s reel took ~20 min to render. Grain makes the file large (~120 MB), over GitHub's
+100 MB limit, so re-encode before committing:
+`ffmpeg -i full.mp4 -c:v libx264 -preset slow -crf 21 -pix_fmt yuv420p -c:a copy -movflags +faststart out/<slug>.mp4` (~45 MB).
+
+**Master the audio** (Remotion renders around -19 LUFS, too quiet for phones): a gentle compressor, then two-pass
+`loudnorm` to -14 LUFS / -1.5 dBTP. Pass 1 measures, pass 2 applies with `linear=true`:
+`-af "acompressor=threshold=-24dB:ratio=3:attack=20:release=250:makeup=4,loudnorm=I=-14:TP=-1.5:LRA=9:print_format=json" -f null -`
+then the same chain with `measured_I/TP/LRA/thresh` and `offset` from pass 1, `-c:v copy -c:a aac -b:a 192k`.
+End on a hit from `earshot sfx` timed to the end card (start it its `peak s` before the cut), then run
+`earshot critique out/<slug>.mp4` and fix critical/major items.

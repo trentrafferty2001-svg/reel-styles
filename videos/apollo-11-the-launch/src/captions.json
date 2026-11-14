@@ -1,0 +1,548 @@
+[
+  {
+    "text": "July",
+    "startMs": 226,
+    "endMs": 480,
+    "timestampMs": 353,
+    "confidence": null
+  },
+  {
+    "text": " sixteenth,",
+    "startMs": 480,
+    "endMs": 1245,
+    "timestampMs": 863,
+    "confidence": null
+  },
+  {
+    "text": " nineteen",
+    "startMs": 1676,
+    "endMs": 2080,
+    "timestampMs": 1878,
+    "confidence": null
+  },
+  {
+    "text": " sixty-nine.",
+    "startMs": 2080,
+    "endMs": 2480,
+    "timestampMs": 2280,
+    "confidence": null
+  },
+  {
+    "text": " A",
+    "startMs": 2480,
+    "endMs": 2879,
+    "timestampMs": 2680,
+    "confidence": null
+  },
+  {
+    "text": " hot",
+    "startMs": 3529,
+    "endMs": 3606,
+    "timestampMs": 3568,
+    "confidence": null
+  },
+  {
+    "text": " morning",
+    "startMs": 3606,
+    "endMs": 3988,
+    "timestampMs": 3797,
+    "confidence": null
+  },
+  {
+    "text": " in",
+    "startMs": 3988,
+    "endMs": 4371,
+    "timestampMs": 4180,
+    "confidence": null
+  },
+  {
+    "text": " Florida.",
+    "startMs": 4371,
+    "endMs": 4448,
+    "timestampMs": 4410,
+    "confidence": null
+  },
+  {
+    "text": " The",
+    "startMs": 4448,
+    "endMs": 4983,
+    "timestampMs": 4716,
+    "confidence": null
+  },
+  {
+    "text": " Saturn",
+    "startMs": 6199,
+    "endMs": 6261,
+    "timestampMs": 6230,
+    "confidence": null
+  },
+  {
+    "text": " Five",
+    "startMs": 6261,
+    "endMs": 6574,
+    "timestampMs": 6418,
+    "confidence": null
+  },
+  {
+    "text": " stood",
+    "startMs": 6574,
+    "endMs": 6949,
+    "timestampMs": 6762,
+    "confidence": null
+  },
+  {
+    "text": " taller",
+    "startMs": 6949,
+    "endMs": 7262,
+    "timestampMs": 7106,
+    "confidence": null
+  },
+  {
+    "text": " than",
+    "startMs": 7262,
+    "endMs": 7637,
+    "timestampMs": 7450,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 7637,
+    "endMs": 7762,
+    "timestampMs": 7700,
+    "confidence": null
+  },
+  {
+    "text": " thirty-story",
+    "startMs": 7762,
+    "endMs": 8420,
+    "timestampMs": 8091,
+    "confidence": null
+  },
+  {
+    "text": " building,",
+    "startMs": 8420,
+    "endMs": 8795,
+    "timestampMs": 8608,
+    "confidence": null
+  },
+  {
+    "text": " and",
+    "startMs": 8795,
+    "endMs": 9107,
+    "timestampMs": 8951,
+    "confidence": null
+  },
+  {
+    "text": " most",
+    "startMs": 9107,
+    "endMs": 9482,
+    "timestampMs": 9295,
+    "confidence": null
+  },
+  {
+    "text": " of",
+    "startMs": 10111,
+    "endMs": 10251,
+    "timestampMs": 10181,
+    "confidence": null
+  },
+  {
+    "text": " its",
+    "startMs": 10251,
+    "endMs": 10602,
+    "timestampMs": 10427,
+    "confidence": null
+  },
+  {
+    "text": " weight",
+    "startMs": 10602,
+    "endMs": 10672,
+    "timestampMs": 10637,
+    "confidence": null
+  },
+  {
+    "text": " was",
+    "startMs": 10672,
+    "endMs": 10812,
+    "timestampMs": 10742,
+    "confidence": null
+  },
+  {
+    "text": " fuel.",
+    "startMs": 10812,
+    "endMs": 11092,
+    "timestampMs": 10952,
+    "confidence": null
+  },
+  {
+    "text": " Nearly",
+    "startMs": 11258,
+    "endMs": 11360,
+    "timestampMs": 11309,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 11360,
+    "endMs": 11859,
+    "timestampMs": 11610,
+    "confidence": null
+  },
+  {
+    "text": " million",
+    "startMs": 12763,
+    "endMs": 13116,
+    "timestampMs": 12940,
+    "confidence": null
+  },
+  {
+    "text": " people",
+    "startMs": 13116,
+    "endMs": 13521,
+    "timestampMs": 13319,
+    "confidence": null
+  },
+  {
+    "text": " lined",
+    "startMs": 13521,
+    "endMs": 14015,
+    "timestampMs": 13768,
+    "confidence": null
+  },
+  {
+    "text": " the",
+    "startMs": 14015,
+    "endMs": 14368,
+    "timestampMs": 14192,
+    "confidence": null
+  },
+  {
+    "text": " beaches",
+    "startMs": 14368,
+    "endMs": 14721,
+    "timestampMs": 14545,
+    "confidence": null
+  },
+  {
+    "text": " and",
+    "startMs": 14721,
+    "endMs": 14791,
+    "timestampMs": 14756,
+    "confidence": null
+  },
+  {
+    "text": " roads",
+    "startMs": 14791,
+    "endMs": 15215,
+    "timestampMs": 15003,
+    "confidence": null
+  },
+  {
+    "text": " to",
+    "startMs": 15215,
+    "endMs": 15285,
+    "timestampMs": 15250,
+    "confidence": null
+  },
+  {
+    "text": " watch.",
+    "startMs": 15285,
+    "endMs": 15709,
+    "timestampMs": 15497,
+    "confidence": null
+  },
+  {
+    "text": " At",
+    "startMs": 15709,
+    "endMs": 15844,
+    "timestampMs": 15777,
+    "confidence": null
+  },
+  {
+    "text": " nine",
+    "startMs": 15844,
+    "endMs": 16338,
+    "timestampMs": 16091,
+    "confidence": null
+  },
+  {
+    "text": " thirty-two,",
+    "startMs": 17262,
+    "endMs": 17360,
+    "timestampMs": 17311,
+    "confidence": null
+  },
+  {
+    "text": " five",
+    "startMs": 17360,
+    "endMs": 17760,
+    "timestampMs": 17560,
+    "confidence": null
+  },
+  {
+    "text": " engines",
+    "startMs": 17760,
+    "endMs": 18000,
+    "timestampMs": 17880,
+    "confidence": null
+  },
+  {
+    "text": " lit,",
+    "startMs": 18000,
+    "endMs": 18449,
+    "timestampMs": 18225,
+    "confidence": null
+  },
+  {
+    "text": " and",
+    "startMs": 18983,
+    "endMs": 19360,
+    "timestampMs": 19172,
+    "confidence": null
+  },
+  {
+    "text": " the",
+    "startMs": 19440,
+    "endMs": 19840,
+    "timestampMs": 19640,
+    "confidence": null
+  },
+  {
+    "text": " ground",
+    "startMs": 19840,
+    "endMs": 20263,
+    "timestampMs": 20052,
+    "confidence": null
+  },
+  {
+    "text": " shook",
+    "startMs": 20824,
+    "endMs": 20880,
+    "timestampMs": 20852,
+    "confidence": null
+  },
+  {
+    "text": " for",
+    "startMs": 20880,
+    "endMs": 20960,
+    "timestampMs": 20920,
+    "confidence": null
+  },
+  {
+    "text": " miles.",
+    "startMs": 20960,
+    "endMs": 21440,
+    "timestampMs": 21200,
+    "confidence": null
+  },
+  {
+    "text": " In",
+    "startMs": 21440,
+    "endMs": 21920,
+    "timestampMs": 21680,
+    "confidence": null
+  },
+  {
+    "text": " under",
+    "startMs": 21920,
+    "endMs": 22080,
+    "timestampMs": 22000,
+    "confidence": null
+  },
+  {
+    "text": " three",
+    "startMs": 22080,
+    "endMs": 22818,
+    "timestampMs": 22449,
+    "confidence": null
+  },
+  {
+    "text": " minutes,",
+    "startMs": 23324,
+    "endMs": 23428,
+    "timestampMs": 23376,
+    "confidence": null
+  },
+  {
+    "text": " it",
+    "startMs": 23428,
+    "endMs": 23588,
+    "timestampMs": 23508,
+    "confidence": null
+  },
+  {
+    "text": " burned",
+    "startMs": 23588,
+    "endMs": 23988,
+    "timestampMs": 23788,
+    "confidence": null
+  },
+  {
+    "text": " two",
+    "startMs": 23988,
+    "endMs": 24464,
+    "timestampMs": 24226,
+    "confidence": null
+  },
+  {
+    "text": " thousand",
+    "startMs": 24876,
+    "endMs": 25100,
+    "timestampMs": 24988,
+    "confidence": null
+  },
+  {
+    "text": " tonnes",
+    "startMs": 25100,
+    "endMs": 25399,
+    "timestampMs": 25250,
+    "confidence": null
+  },
+  {
+    "text": " of",
+    "startMs": 25399,
+    "endMs": 25623,
+    "timestampMs": 25511,
+    "confidence": null
+  },
+  {
+    "text": " fuel",
+    "startMs": 25623,
+    "endMs": 26221,
+    "timestampMs": 25922,
+    "confidence": null
+  },
+  {
+    "text": " and",
+    "startMs": 26221,
+    "endMs": 26594,
+    "timestampMs": 26408,
+    "confidence": null
+  },
+  {
+    "text": " climbed",
+    "startMs": 26594,
+    "endMs": 26744,
+    "timestampMs": 26669,
+    "confidence": null
+  },
+  {
+    "text": " sixty",
+    "startMs": 26744,
+    "endMs": 27192,
+    "timestampMs": 26968,
+    "confidence": null
+  },
+  {
+    "text": " kilometres.",
+    "startMs": 27192,
+    "endMs": 27342,
+    "timestampMs": 27267,
+    "confidence": null
+  },
+  {
+    "text": " Four",
+    "startMs": 27699,
+    "endMs": 28228,
+    "timestampMs": 27964,
+    "confidence": null
+  },
+  {
+    "text": " days",
+    "startMs": 28228,
+    "endMs": 28708,
+    "timestampMs": 28468,
+    "confidence": null
+  },
+  {
+    "text": " later,",
+    "startMs": 28708,
+    "endMs": 29509,
+    "timestampMs": 29109,
+    "confidence": null
+  },
+  {
+    "text": " two",
+    "startMs": 30775,
+    "endMs": 31028,
+    "timestampMs": 30902,
+    "confidence": null
+  },
+  {
+    "text": " of",
+    "startMs": 31028,
+    "endMs": 31348,
+    "timestampMs": 31188,
+    "confidence": null
+  },
+  {
+    "text": " the",
+    "startMs": 31348,
+    "endMs": 31789,
+    "timestampMs": 31569,
+    "confidence": null
+  },
+  {
+    "text": " men",
+    "startMs": 32409,
+    "endMs": 32628,
+    "timestampMs": 32519,
+    "confidence": null
+  },
+  {
+    "text": " aboard",
+    "startMs": 32628,
+    "endMs": 32708,
+    "timestampMs": 32668,
+    "confidence": null
+  },
+  {
+    "text": " walked",
+    "startMs": 32708,
+    "endMs": 32788,
+    "timestampMs": 32748,
+    "confidence": null
+  },
+  {
+    "text": " on",
+    "startMs": 32788,
+    "endMs": 33028,
+    "timestampMs": 32908,
+    "confidence": null
+  },
+  {
+    "text": " the",
+    "startMs": 33028,
+    "endMs": 33566,
+    "timestampMs": 33297,
+    "confidence": null
+  },
+  {
+    "text": " Moon.",
+    "startMs": 33739,
+    "endMs": 34068,
+    "timestampMs": 33904,
+    "confidence": null
+  },
+  {
+    "text": " Follow",
+    "startMs": 34068,
+    "endMs": 34228,
+    "timestampMs": 34148,
+    "confidence": null
+  },
+  {
+    "text": " for",
+    "startMs": 34228,
+    "endMs": 34308,
+    "timestampMs": 34268,
+    "confidence": null
+  },
+  {
+    "text": " more.",
+    "startMs": 34308,
+    "endMs": 34716,
+    "timestampMs": 34512,
+    "confidence": null
+  }
+]

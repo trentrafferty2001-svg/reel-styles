@@ -11,6 +11,8 @@ revealed at the end.
 
 Build with the `reel-base` pipeline (load it first), using its **several voices** path.
 
+**3D look:** render it in 3D (reel-base section 7). The reference frame is `previews/podcast.png`; start the world from `previews/v2/scenes/podcast.js`. The colours and layout below still apply; flat-drawing details (outline widths, SVG shapes) translate to 3D materials and lighting.
+
 ## Look
 - **Studio:** deep purple-to-navy back wall (`#1b1035` → `#0d1430`) with soft acoustic-panel rectangles, a warm desk
   (`#3a2a20` top edge highlight) across the lower middle at y≈1150.

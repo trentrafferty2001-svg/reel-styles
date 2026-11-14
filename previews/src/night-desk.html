@@ -1,0 +1,33 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><style>
+body{background:#161a2e}
+.win{position:absolute;left:70px;top:280px;width:520px;height:640px;border-radius:14px;overflow:hidden;border:16px solid #262b45;background:linear-gradient(#0a1530,#0d1b3a)}
+.lamp{position:absolute;left:300px;top:700px;width:1000px;height:1100px;background:radial-gradient(ellipse at 40% 20%,rgba(255,190,110,.55),rgba(255,190,110,0) 60%)}
+.step{position:absolute;right:60px;width:440px;padding:24px 28px;border-radius:24px;background:rgba(255,255,255,.12);border:2px solid rgba(255,255,255,.22);color:#fff2df;font:700 34px Inter;display:flex;gap:18px;align-items:center;box-shadow:0 20px 40px rgba(0,0,0,.3)}
+.step b{flex:none;width:58px;height:58px;border-radius:50%;background:#ffbe6e;color:#161a2e;display:flex;align-items:center;justify-content:center;font:900 32px Inter}
+.cap{color:#fff2df;font-weight:700;font-size:60px;bottom:300px}
+</style></head><body>
+<div class="win"><svg width="520" height="640">
+ <g fill="#060d20"><rect x="20" y="380" width="90" height="260"/><rect x="120" y="300" width="110" height="340"/><rect x="250" y="420" width="80" height="220"/><rect x="340" y="260" width="140" height="380"/></g>
+ <g fill="#ffd27a"><rect x="140" y="330" width="14" height="18"/><rect x="190" y="390" width="14" height="18"/><rect x="370" y="300" width="14" height="18"/><rect x="420" y="360" width="14" height="18"/><rect x="40" y="420" width="14" height="18"/><rect x="390" y="450" width="14" height="18"/></g>
+ <g stroke="#9fb6e8" stroke-width="3" opacity=".55" stroke-linecap="round">
+  <line x1="30" y1="20" x2="10" y2="80"/><line x1="90" y1="120" x2="70" y2="180"/><line x1="160" y1="40" x2="140" y2="100"/><line x1="230" y1="160" x2="210" y2="220"/><line x1="300" y1="60" x2="280" y2="120"/><line x1="370" y1="200" x2="350" y2="260"/><line x1="440" y1="30" x2="420" y2="90"/><line x1="500" y1="150" x2="480" y2="210"/><line x1="60" y1="260" x2="40" y2="320"/><line x1="200" y1="280" x2="180" y2="340"/><line x1="330" y1="320" x2="310" y2="380"/><line x1="470" y1="300" x2="450" y2="360"/><line x1="120" y1="450" x2="100" y2="510"/><line x1="410" y1="480" x2="390" y2="540"/>
+ </g>
+ <g fill="#cfe0ff" opacity=".6"><ellipse cx="130" cy="220" rx="5" ry="8"/><ellipse cx="380" cy="140" rx="5" ry="8"/><ellipse cx="260" cy="520" rx="5" ry="8"/></g>
+</svg></div>
+<div class="lamp"></div>
+<svg class="abs" style="left:0;top:0" width="1080" height="1920">
+ <rect x="0" y="1380" width="1080" height="540" fill="#2a2235"/><rect x="0" y="1380" width="1080" height="22" fill="#3a3048"/>
+ <!-- lamp -->
+ <path d="M880 1380 L880 1250 L760 1110" stroke="#3a3048" stroke-width="18" fill="none" stroke-linecap="round"/><path d="M700 1060 L820 1060 L800 1140 L720 1140Z" fill="#ffbe6e" transform="rotate(-25 760 1100)"/><rect x="830" y="1370" width="100" height="18" rx="8" fill="#3a3048"/>
+ <!-- character back 3/4 -->
+ <g transform="translate(330 1060)"><path d="M-170 330 Q-170 90 0 90 Q170 90 170 330Z" fill="#4a5a8a"/><path d="M-120 120 Q0 40 120 120 L100 170 Q0 110 -100 170Z" fill="#3c4a74"/>
+  <circle cy="10" r="100" fill="#3a2a22"/><path d="M60 -10 Q110 20 95 70 Q70 40 60 -10Z" fill="#e0b48c"/></g>
+ <path d="M440 1380 L470 1240 L700 1240 L690 1380Z" fill="#222838"/><path d="M455 1374 L480 1250 L688 1250 L680 1374Z" fill="#a8e6ff" opacity=".25"/>
+ <!-- helper robot -->
+ <g transform="translate(720 980)"><circle r="120" fill="#ffbe6e" opacity=".12"/><rect x="-70" y="-60" width="140" height="110" rx="34" fill="#e9f3ff" stroke="#9fb6e8" stroke-width="5"/><rect x="-48" y="-36" width="96" height="56" rx="20" fill="#1c2340"/><circle cx="-20" cy="-8" r="10" fill="#7ff0ff"/><circle cx="20" cy="-8" r="10" fill="#7ff0ff"/><path d="M0 -60 L0 -90" stroke="#9fb6e8" stroke-width="5"/><circle cy="-98" r="10" fill="#ffbe6e"/>
+  <g fill="#ffe6b0"><path d="M-110 -70 l6 14 l14 6 l-14 6 l-6 14 l-6 -14 l-14 -6 l14 -6z"/><path d="M100 30 l5 10 l10 5 l-10 5 l-5 10 l-5 -10 l-10 -5 l10 -5z"/></g></g>
+</svg>
+<div class="step" style="top:300px;opacity:.55;transform:scale(.9)"><b>1</b>Clear the cache</div>
+<div class="step" style="top:430px"><b>2</b>Restart the dev server</div>
+<div class="cap">Restart the <span style="color:#ffbe6e">server.</span></div>
+</body></html>
