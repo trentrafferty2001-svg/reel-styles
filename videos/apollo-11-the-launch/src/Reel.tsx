@@ -119,6 +119,8 @@ export const Reel: React.FC = () => {
       <Sequence from={starts[4] + ign}><Html5Audio src={staticFile("sfx/rumble.wav")} volume={0.9} /></Sequence>
       <Sequence from={starts[4] + ign} durationInFrames={30}><Html5Audio src={staticFile("sfx/thud.wav")} volume={0.8} /></Sequence>
       <Sequence from={starts[7]} durationInFrames={40}><Html5Audio src={staticFile("sfx/thud.wav")} volume={0.4} /></Sequence>
+      {/* earshot pro_impact/deep, peak 0.213 s: lands on the end card */}
+      <Sequence from={starts[SHOTS.length - 1] - Math.round(0.213 * fps)} durationInFrames={45}><Html5Audio src={staticFile("sfx/end.wav")} volume={0.9} /></Sequence>
       {SHOTS.map((s, i) => {
         if (s.id === "title" || s.id === "end") return null;
         return (

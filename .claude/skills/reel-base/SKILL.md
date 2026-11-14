@@ -146,3 +146,10 @@ with `npx remotion render Reel out/<slug>.mp4 --concurrency=4 --timeout=120000`.
 each still takes ~6 s. A 36 s reel took ~20 min to render. Grain makes the file large (~120 MB), over GitHub's
 100 MB limit, so re-encode before committing:
 `ffmpeg -i full.mp4 -c:v libx264 -preset slow -crf 21 -pix_fmt yuv420p -c:a copy -movflags +faststart out/<slug>.mp4` (~45 MB).
+
+**Master the audio** (Remotion renders around -19 LUFS, too quiet for phones): a gentle compressor, then two-pass
+`loudnorm` to -14 LUFS / -1.5 dBTP. Pass 1 measures, pass 2 applies with `linear=true`:
+`-af "acompressor=threshold=-24dB:ratio=3:attack=20:release=250:makeup=4,loudnorm=I=-14:TP=-1.5:LRA=9:print_format=json" -f null -`
+then the same chain with `measured_I/TP/LRA/thresh` and `offset` from pass 1, `-c:v copy -c:a aac -b:a 192k`.
+End on a hit from `earshot sfx` timed to the end card (start it its `peak s` before the cut), then run
+`earshot critique out/<slug>.mp4` and fix critical/major items.
