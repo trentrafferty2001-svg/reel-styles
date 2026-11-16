@@ -13,3 +13,7 @@ This repo holds eight reel art styles as skills (`.claude/skills/reel-*`). Each 
 - Sound check: the `earshot` skill gives you ears. Run `bash setup-earshot.sh` first (containers are wiped; takes
   ~2 min, downloads ~1.1 GB of models). Use `earshot sfx`/`kit` for code-made sound effects (no models, free) and run
   `earshot critique <mp4>` on every render before sending it; fix critical/major loudness and sync issues.
+
+## Pull requests
+The owner allows Claude to merge its own pull requests without asking (Nov 2026): after pushing and opening the PR,
+merge it when it can be merged cleanly.
